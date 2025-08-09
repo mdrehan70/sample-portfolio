@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="dark-circle">
+      <svg id="moon"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-moon-star-icon lucide-moon-star"
+      >
+        <path d="M18 5h4" />
+        <path d="M20 3v4" />
+        <path
+          d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"
+        />
+      </svg>
+      <svg id="sun" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun-icon lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+    </div>
+    <header>
+      <div>
+        <h1>Md Rehan</h1>
+        <h3>Aspiring Software Developer || BCA Student</h3>
+      </div>
+    </header>
+    <nav>
+      <ul class="night">
+        <li><a href="#experience" class="night">Experience</a></li>
+        <li><a href="#education" class="night">Education</a></li>
+        <li><a href="#certification" class="night">Certifications</a></li>
+        <li><a href="#hobbie" class="night">Hobbies</a></li>
+        <li><a href="#contact" class="night">Contact Me</a></li>
+        <li>
+          <a href="#admin-login" id="admin-login-btn" class="night"
+            >Admin Login</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="first-exp">
+          <h3>➥ Intern - Briztech Infosystem Pvt. Ltd</h3>
+          <p>Worked on web dev projects</p>
+        </div>
+        <div class="second-exp">
+          <h3>➥ Intern - YHills</h3>
+          <p>Worked on web dev projects</p>
+        </div>
+        <div class="third-exp">
+          <h3>➥ Intern - Codsoft</h3>
+          <p>Worked on web dev projects</p>
+        </div>
+      </section>
+      <section id="education" class="night">
+        <h2>Education</h2>
+        <div class="first-edu">
+          <h3>➥ Graduation - Bachelor of Computer Application</h3>
+          <p>2022 - Present</p>
+        </div>
+        <div class="second-edu">
+          <h3>➥ Intermediate - I.Sc</h3>
+          <p>2020 - 2022</p>
+        </div>
+        <div class="third-edu">
+          <h3>➥ Matriculation - 10th</h3>
+          <p>2019 - 2020</p>
+        </div>
+      </section>
+      <section id="certification">
+        <h2>Certifications</h2>
+        <div class="first-edu">
+          <h3>➥ Intern - Full Stack Web Development</h3>
+          <p>Location : Ranchi, Jharkhand, India - Duration : 1 Month</p>
+        </div>
+        <div class="second-edu">
+          <h3>
+            ➥ Professional Behaviour - Public Speaking and Technical Skills
+          </h3>
+          <p>Location : Remote - Duration : 3 Months</p>
+        </div>
+      </section>
+      <section id="hobbie" class="night">
+        <h2>Hobbies</h2>
+        <div class="first-edu">
+          <h3>➥ Coding - Solve Real World Problems and Development</h3>
+        </div>
+        <div class="second-edu">
+          <h3>
+            ➥ Playing Cricket - which helps me maintain a balanced and
+            disciplined life.
+          </h3>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="" id="user-contact-form">
+          <div>
+            <label for="">Name: </label>
+            <input type="text" id="name" placeholder="Enter Name..." />
+          </div>
+          <div>
+            <label for="">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter Email..." />
+          </div>
+          <div>
+            <label for="">Message: </label>
+            <textarea
+              name="Message"
+              id="message"
+              placeholder="Enter Your Text Here..."
+            ></textarea>
+          </div>
+          <button>Send</button>
+        </form>
+      </section>
+      <section id="admin-login" class="night">
+        <h2>Admin Login</h2>
+        <form action="" id="admin-form">
+          <div>
+            <label for="">Username: </label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Enter Username..."
+              required
+            />
+          </div>
+          <div>
+            <label for="">Password: </label>
+            <input
+              type="password"
+              name=""
+              id="password"
+              placeholder="Enter Numeric Password..."
+              required
+            />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+      </section>
+      <section id="user-response" class="night">
+        <h2>User Responses</h2>
+        <div id="user-response-section">
+
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
